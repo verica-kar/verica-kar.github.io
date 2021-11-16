@@ -1,0 +1,74 @@
+#page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding: 10px; 
+    background-color: rgb(217, 210, 233);
+}
+
+body {
+    background-color: rgb(217, 210, 233)
+}
+
+nav ul li {
+	display: inline;
+    float: right;
+    margin-bottom: 20px;
+    border: 2px solid rgb(217, 210, 233);
+}
+
+nav a {
+	color: black;
+    font-family: "Avantgarde", sans-serif;
+    font-weight: lighter;
+	text-decoration: none;
+	padding: 10px;
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 45px;
+    margin-bottom: -20px;
+    text-align: center;
+    display: block;
+}
+
+h2.major {
+    font-family: "Avantgarde", sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+.pic {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+#name {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: black;
+    border: 3px solid white;
+}
+
+.about_me {
+    font-family: "Courier New", monospace;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#about {
+    position: relative;
+    margin-top: 20px;
+    font-family: "Garamond", serif;
+    font-weight: lighter;
+}

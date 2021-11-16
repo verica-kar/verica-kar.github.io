@@ -1,0 +1,109 @@
+#page3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding: 10px; 
+    background-color: rgb(217, 210, 233);
+}
+
+body {
+    background-color: rgb(217, 210, 233)
+}
+
+nav ul li {
+    position: relative;
+	display: inline;
+    float: right;
+    margin-bottom: 20px;
+    border: 2px solid rgb(217, 210, 233);
+}
+
+nav a {
+	color: black;
+    font-family: "Avantgarde", sans-serif;
+    font-weight: lighter;
+	text-decoration: none;
+	padding: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-weight: normal;
+}
+
+#resume {
+    position: relative;
+    font-family: "Garamond", serif;
+    font-weight: lighter;
+    margin-top: 60px;
+    border: 3px solid white;
+}
+
+#dl {
+    text-align: center;
+    font-size: smaller;
+    color: black;
+    line-height: 1em;
+}
+
+.education, .awards, .workE, .cert, .reg, .tech, .sSkills {
+    font-size: 25px;
+    font-family: "Avantgarde", sans-serif;
+    font-weight: lighter;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.cWork {
+    position: relative;
+    margin-top: 30px;
+}
+
+.workE {
+    position: relative;
+    margin-top: 20px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 17px;
+}
+
+h4 {
+    color: rgb(136, 136, 136);
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1em;
+    position: relative;
+    margin-top: -10px;
+}
+
+ul li {
+    list-style-type: "→ ";
+    padding: 5px;
+}
+
+p {
+    display: inline;
+    color: rgb(136, 136, 136);
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#school, #work {
+    margin-top: 10px;
+    float: right;
+    width: 65%;
+}
+
+#lCol {
+    position: absolute;
+    float: left;
+    width: 30%;
+    border: 3px solid white;
+    padding: 0px 10px 0px 10px;
+    margin-top: 10px;
+}
